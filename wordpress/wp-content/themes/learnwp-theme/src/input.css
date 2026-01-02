@@ -1,9 +1,17 @@
 @import "tailwindcss";
 
-.learnwp-content h2{
+.learnwp-content h2 {
     @apply text-2xl font-bold pt-6 text-[#212529] dark:text-gray-100;
 }
 
-.learnwp-content ul{
+.learnwp-content ul {
     @apply list-disc list-inside space-y-2 pl-2;
+}
+
+.learnwp-content h3 {
+    @apply text-xl font-bold pt-4 text-[#212529] dark:text-gray-100;
+}
+
+.learnwp-content img {
+    @apply w-4/5;
 }
