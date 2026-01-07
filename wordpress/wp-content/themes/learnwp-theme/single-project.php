@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main class="flex flex-col gap-12 pt-8">
-    <div class="bg-cover bg-center flex flex-col justify-end overflow-hidden rounded-xl min-h-[480px]" data-alt="Abstract hero image for the Acme Corp redesign project, showing vibrant geometric shapes." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 35%), url("<?php the_post_thumbnail_url() ?>  ");'>
+    <div class="bg-cover bg-center flex flex-col justify-end overflow-hidden rounded-xl min-h-120" data-alt="Abstract hero image for the Acme Corp redesign project, showing vibrant geometric shapes." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 35%), url("<?php the_post_thumbnail_url() ?>  ");'>
         <div class="flex p-8">
             <h1 class="text-white tracking-tight text-5xl font-bold leading-tight"><?php the_title() ?></h1>
         </div>

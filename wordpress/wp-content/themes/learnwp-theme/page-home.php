@@ -4,7 +4,7 @@
 
 get_header(); ?>
 
-<main class="flex-grow">
+<main class="grow">
     <div class="@container py-16 sm:py-24">
         <div class="flex flex-col gap-10 @[864px]:flex-row @[864px]:items-center">
             <div class="flex flex-col gap-6 @[864px]:justify-center flex-1">
@@ -13,12 +13,12 @@ get_header(); ?>
                     <h2 class="text-base font-normal leading-normal text-subtle-text-light dark:text-subtle-text-dark"> I create intuitive and beautiful user experiences. Passionate about solving complex problems through clean code and user-centric design. </h2>
                 </div>
                 <div class="flex">
-                    <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-red-500 text-text-light text-base font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
+                    <button class="flex min-w-21 max-w-120 cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-red-500 text-text-light text-base font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
                         <span class="truncate">View My Work</span>
                     </button>
                 </div>
             </div>
-            <div class="w-full flex-1 bg-center bg-no-repeat aspect-square bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full" data-alt="Abstract vibrant geometric shapes on a light background" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDEyYbIZHGLcWFlIRuu4QmF5JA-iMFIzu0j0n82pOCdIVAWcq8dLm_cvffVqBTTLrpO_oJnl_quBCjcG5ZRpJIxWuM8t4ZSZlsW633l7X36NsQEa8jKuiD-TuuSGxoGKoM8pHj9fTkd96TWtnj25-4M9oiFbyaX3Ctt3K2Z4FwbPGncHitZQ2jFw4a7ss_2CUiImlL3cnlEYwZhsP2GX_uBf9X6iFQj2Rxi6vGihkt8GeFnbgkyWvvX85N8lUrSiz7PDsai-SIT8QKf");'></div>
+            <div class="w-full flex-1 bg-center bg-no-repeat aspect-square bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-100 @[864px]:w-full" data-alt="Abstract vibrant geometric shapes on a light background" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDEyYbIZHGLcWFlIRuu4QmF5JA-iMFIzu0j0n82pOCdIVAWcq8dLm_cvffVqBTTLrpO_oJnl_quBCjcG5ZRpJIxWuM8t4ZSZlsW633l7X36NsQEa8jKuiD-TuuSGxoGKoM8pHj9fTkd96TWtnj25-4M9oiFbyaX3Ctt3K2Z4FwbPGncHitZQ2jFw4a7ss_2CUiImlL3cnlEYwZhsP2GX_uBf9X6iFQj2Rxi6vGihkt8GeFnbgkyWvvX85N8lUrSiz7PDsai-SIT8QKf");'></div>
         </div>
     </div>
 
@@ -54,7 +54,7 @@ get_header(); ?>
 
                 </div>
                 <div class="flex justify-center mt-4">
-                    <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-transparent border border-primary text-primary text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary hover:text-text-light transition-colors">
+                    <button class="flex min-w-21 max-w-120 cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-transparent border border-primary text-primary text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary hover:text-text-light transition-colors">
                         <span class="truncate">View More</span>
                     </button>
                 </div>
