@@ -15,7 +15,7 @@ get_header(); ?>
                 <div class="flex">
                     <?php 
                     $button_text =  get_field('hero_section_button_text');
-                    $button_url = get_field('hero_section_button_url');
+                    $button_url = get_field('hero_section_buttton_url');
                     if($button_text && $button_url){
                     ?>
                     <a href="<?php echo esc_url(get_field("hero_section_buttton_url")) ?>" class="flex min-w-21 max-w-120 cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-red-500 text-text-light text-base font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
