@@ -92,3 +92,25 @@ function learnwp_register_nav_menu()
     ));
 }
 add_action('after_setup_theme', 'learnwp_register_nav_menu');
+
+
+
+
+
+
+
+
+
+// themes -> 'learnwp-theme'
+
+// -index.php
+// -style.php
+// -functiions.php
+
+// header.php 
+// footer.php 
+
+// post type 
+//     -code 
+//     -SCF 
+
