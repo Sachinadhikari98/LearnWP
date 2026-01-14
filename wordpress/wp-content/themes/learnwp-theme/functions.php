@@ -88,8 +88,7 @@ add_action('init', 'register_gallery_post_type');
 function learnwp_register_nav_menu()
 {
     register_nav_menus(array(
-        'primary_menu' => __('Primary Menu'),
-
+        'main_menu' => __('Main Menu'),
     ));
 }
 add_action('after_setup_theme', 'learnwp_register_nav_menu');

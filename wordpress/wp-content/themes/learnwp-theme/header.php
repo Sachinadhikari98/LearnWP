@@ -33,10 +33,20 @@
                             </div>
                         </a>
                         <div class="hidden sm:flex flex-1 justify-end gap-8">
-                            <div class="flex items-center gap-9">
+                            <!-- <div class="flex items-center gap-9">
                                 <a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Work</a>
                                 <a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">About</a>
                                 <a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Contact</a>
-                            </div>
+                            </div> -->
+                                <?php 
+                                wp_nav_menu(
+                                   [
+                                     'theme_location' => 'main_menu',
+                                     'container' => false,
+                                     'menu_class' => 'flex gap-6',
+                                     'echo' => true,
+                                     ]
+                                   );
+                                ?>
                         </div>
                     </header>
